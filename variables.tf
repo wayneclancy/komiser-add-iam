@@ -16,7 +16,7 @@
 
 variable "iam_policy_name" {
   description = "The name of the IAM policy to create for Komiser"
-  default     = "komiser"
+  default     = "komiser-service-policy"
 }
 
 variable "iam_policy_path" {
@@ -26,7 +26,7 @@ variable "iam_policy_path" {
 
 variable "iam_user_name" {
   description = "The name of the IAM user to create for Komiser"
-  default     = "komiser"
+  default     = "komiser-service-user"
 }
 
 variable "iam_user_path" {
